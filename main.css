@@ -37,3 +37,44 @@ h1 {
 .head { grid-area: head; }
 .body { grid-area: body; }
 .footer { grid-area: footer; }
+
+.container {
+	width: 10%;
+	height: 0px;
+	padding: 1%;
+	display: flex;
+	align-items: Center;
+	justify-content: Center;
+}
+
+.search-bar {
+	width: 100%;
+	max-width:400px;
+	background: light-blue;
+	display: flex;
+	align-items: Center;
+	border-radius: 60px
+	padding: 0px 0px;
+	}
+	
+.search-bar input {
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	padding: 24px 20px;
+	font-size: 8px;
+	color: black;
+	
+}
+
+.search-bar button img{
+		width: 25px;
+}
+.search-bar button {
+	border: 0;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+}
